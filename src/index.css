@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'Fashion Norsa';
-  src: url('../public/fashionnorsa.otf') format('otf'),
-       url('../public/fashionnorsa.ttf') format('ttf');
+  src: url('/fashionnorsa.otf') format('otf'),
+       url('/fashionnorsa.ttf') format('ttf'),
+       url('/fashionnorsa.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
