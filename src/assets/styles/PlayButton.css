@@ -1,0 +1,72 @@
+.play-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.play-button {
+  padding: 10px 30px;
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  font-weight:900; /* Bold Helvetica text */
+  background-color: white;
+  color: rgba(31,33,192);
+  border: none;
+  cursor: pointer;
+  border-radius: 2%;
+  box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+
+}
+
+.play-button:hover {
+  background-color: #ccc;
+}
+
+.close-modal-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold; /* Bold Helvetica text */
+  background-color: rgba(31,33,192);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+
+}
+
+
+/* Blur effect for the entire page when the modal is open */
+.blurred {
+  filter: blur(8px);
+  transition: filter 0.3s ease;
+}
+
+/* Modal Styles */
+.modal {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 2%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+}
+
+
+
+/* Overlay with blur */
+.overlay {
+  background-color: rgba(31,33,192,0.5); /* Dark overlay */
+}
+
+/* Popup text color */
+.modal h2 {
+  color: rgba(31,33,192); /* Dark blue text inside the popup */
+
+  
+}

@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .logo-title-container {
+    display: flex;
+    flex-direction: column; /* Stacks the logo above the text */
+    justify-content: center;
+    align-items: center;
+    gap: 4px; /* Space between logo and text */
+  }
+  
+
+  
+  .logo {
+    height: 240px; /* Increase the logo size */
+  }
+  
+  .suicity-title {
+    margin-top: -40px;
+    margin-bottom: 0px;
+    font-size: 8rem;  /* Keep the SuiCity text large */
+    color: white;
+    font-family: "Fashion Norsa", sans-serif;
+    text-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4) /* Add shadow effect */
+
+  }
+  
