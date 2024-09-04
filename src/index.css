@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Fashion Norsa";
-  src: url('public/FashionNorsa.ttf') format('truetype');
+  src: url('../public/fashionnorsa.ttf') format('truetype');
 }
 
 body {
