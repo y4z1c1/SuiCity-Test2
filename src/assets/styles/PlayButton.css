@@ -40,7 +40,7 @@
 /* Blur effect for the entire page when the modal is open */
 .blurred {
   filter: blur(8px);
-  transition: filter 0.3s ease;
+  transition: filter 0.1s ease;
 }
 
 /* Modal Styles */

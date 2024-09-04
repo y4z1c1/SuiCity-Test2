@@ -5,7 +5,7 @@
   padding: 20px;
   z-index: 1000; /* Ensure it stays on top */
   background-color: transparent; /* Optional: Ensures no visual glitches with blur */
-  transition: all 0.3s ease-in-out; /* Smooth transition */
+  transition: all 0.1s ease-in-out; /* Smooth transition */
   box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@
 
 .blurred {
   filter: blur(8px);
-  transition: filter 0.3s ease-in-out;
+  transition: filter 0.1s ease-in-out;
 }
 
 

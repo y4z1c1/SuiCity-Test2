@@ -13,15 +13,7 @@ const App: React.FC = () => {
     setIsModalOpen(isOpen);
   };
 
-  useEffect(() => {
-    // Detect if the browser is Safari
-    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-
-    // If Safari is detected, add a class to the body
-    if (isSafari) {
-      document.body.classList.add('safari');
-    }
-  }, []); // Empty dependency array ensures this runs once on mount
+  
 
 
   useEffect(() => {
