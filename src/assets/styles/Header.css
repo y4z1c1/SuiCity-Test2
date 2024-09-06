@@ -64,3 +64,33 @@
 .nav-links a:hover {
   color: rgb(255, 255, 255, 1);
 }
+
+@media (max-width: 768) {
+  .suicity-title {
+    font-size: 5rem; /* Decrease the font size for smaller screens */
+    margin-top: -30px; /* Adjust the margin for smaller screens */
+  }
+
+  .logo {
+    height: 140px; /* Decrease the logo size for smaller screens */
+  }
+
+  .title {
+    max-width: 50%; /* Adjust the width for smaller screens */
+  }
+}
+
+@media (max-width: 375px) {
+  .suicity-title {
+    font-size: 4rem; /* Decrease the font size for smaller screens */
+    margin-top: -20px; /* Adjust the margin for smaller screens */
+  }
+
+  .logo {
+    height: 120px; /* Decrease the logo size for smaller screens */
+  }
+
+  .title {
+    max-width: 50%; /* Adjust the width for smaller screens */
+  }
+}

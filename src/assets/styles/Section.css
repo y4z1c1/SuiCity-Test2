@@ -12,6 +12,7 @@
   box-shadow: 10px 20px 0px rgba(0, 0, 0, 0.4);
   position: relative;
   margin-bottom: 60px;
+  box-sizing: border-box;
 }
 
 .text-image-block {
@@ -111,10 +112,12 @@
   }
 
   .text-left,
-  .text-right,
+  .text-right {
+    width: 60%;
+  }
   .image-right,
   .image-left {
-    width: 50%;
+    width: 40%;
   }
 
   .sec-container h2 {
@@ -126,14 +129,23 @@
   }
 
   #cloud {
-    width: 120%;
+    width: 100%;
     margin-top: -250px;
   }
 }
 
 @media (max-width: 480px) {
+  .image-right,
+  .image-left {
+    width: 30%;
+  }
+  .text-left,
+  .text-right {
+    width: 70%;
+  }
+
   .sec-container {
-    width: 95%;
+    width: 100%;
     padding: 15px;
   }
 
@@ -146,7 +158,14 @@
   }
 
   #cloud {
-    width: 140%;
-    margin-top: -200px;
+    width: 100%;
+    margin-top: -160px;
+  }
+}
+
+@media (max-width: 375px) {
+  #cloud {
+    width: 100%;
+    margin-top: -120px;
   }
 }
