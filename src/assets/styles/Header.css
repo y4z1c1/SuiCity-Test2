@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   gap: 4px; /* Space between logo and text */
+  position: relative; /* Needed to position .specialLeft and .specialRight */
 }
 
 .logo {
@@ -66,6 +67,10 @@
 }
 
 @media (max-width: 768) {
+  .specialLeft,
+  .specialRight {
+    display: none; /* Hide on devices smaller than 768px */
+  }
   .suicity-title {
     font-size: 5rem; /* Decrease the font size for smaller screens */
     margin-top: -30px; /* Adjust the margin for smaller screens */
