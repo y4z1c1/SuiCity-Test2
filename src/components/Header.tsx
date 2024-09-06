@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Header: React.FC = () => {
   const [isSafari, setIsSafari] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [, setScrollPosition] = useState(0);
   const [navBackColor, setNavBackColor] = useState("rgba(0, 0, 0, 0.4)");
 
   const location = useLocation();

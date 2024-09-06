@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import "../assets/styles/Section.css";
 
 const Section: React.FC = () => {
