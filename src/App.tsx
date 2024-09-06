@@ -10,6 +10,27 @@ import Guide from "./components/Guide";
 import Faq from "./components/Faq"; // Import the Faq component
 
 const App: React.FC = () => {
+  useEffect(() => {
+    WebFont.load({
+      custom: {
+        families: [
+          "Fashion Norsa",
+          "Helvetica",
+          "Helvetica Oblique",
+          "Helvetica Compressed",
+          "Helvetica Rounded Bold",
+          "Helvetica Bold",
+          "Helvetica Bold Oblique",
+          "Helvetica Light",
+        ],
+        urls: ["./assets/styles/fonts.css"], // Update this to the actual path of your CSS file that includes font-face
+      },
+      active() {
+        console.log("Fonts loaded");
+      },
+    });
+  }, []);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleModalState = (isOpen: boolean) => {
