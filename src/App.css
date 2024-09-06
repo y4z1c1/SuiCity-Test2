@@ -53,3 +53,35 @@
   font-weight: bold;
 }
 
+.guide-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.guide-link-text {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: underline;
+}
+
+.guide-link-text:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  font-family: "Fashion Norsa", "Helvetica", sans-serif;
+}
+h2 {
+  font-size: 2rem; /* Keep the SuiCity text large */
+}
+h2 {
+  font-family: "Helvetica Bold", helvetica;
+}
+
+span {
+  font-family: "Helvetica", sans-serif;
+}
+
+button {
+  font-family: "Helvetica", sans-serif;
+}

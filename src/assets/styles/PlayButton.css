@@ -8,14 +8,14 @@
   padding: 10px 30px;
   font-size: 2rem;
   font-family: Helvetica, sans-serif;
-  font-weight:900; /* Bold Helvetica text */
+  font-weight: 900; /* Bold Helvetica text */
   background-color: white;
-  color: rgba(31,33,192);
+  color: rgba(31, 33, 192);
   border: none;
   cursor: pointer;
   border-radius: 2%;
   box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
-
+  margin-bottom: 200px;
 }
 
 .play-button:hover {
@@ -27,15 +27,13 @@
   padding: 10px 20px;
   font-family: Helvetica, sans-serif;
   font-weight: bold; /* Bold Helvetica text */
-  background-color: rgba(31,33,192);
+  background-color: rgba(31, 33, 192);
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 2px;
   box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
-
 }
-
 
 /* Blur effect for the entire page when the modal is open */
 .blurred {
@@ -57,16 +55,12 @@
   box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
 }
 
-
-
 /* Overlay with blur */
 .overlay {
-  background-color: rgba(31,33,192,0.5); /* Dark overlay */
+  background-color: rgba(31, 33, 192, 0.5); /* Dark overlay */
 }
 
 /* Popup text color */
 .modal h2 {
-  color: rgba(31,33,192); /* Dark blue text inside the popup */
-
-  
+  color: rgba(31, 33, 192); /* Dark blue text inside the popup */
 }

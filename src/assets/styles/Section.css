@@ -1,0 +1,91 @@
+/* Container for the section */
+.sec-container {
+  background-color: white;
+  color: rgb(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 8px 12px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.text-image-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.text-left {
+  text-align: left;
+  width: 50%;
+}
+
+.text-right {
+  text-align: right;
+  width: 50%;
+}
+
+.image-right,
+.image-left {
+  width: 50%;
+}
+
+.image-right img,
+.image-left img {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(
+    8px 12px 12px rgba(0, 0, 0, 0.4)
+  ); /* Adds shadow to non-transparent parts */
+}
+
+@media (max-width: 768px) {
+  .text-image-block {
+    flex-direction: column;
+  }
+
+  .text-left,
+  .text-right,
+  .image-right,
+  .image-left {
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(
+      8px 12px 12px rgba(0, 0, 0, 0.4)
+    ); /* Adds shadow to non-transparent parts */
+  }
+}
+#cloud {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Center image horizontally */
+  width: 100%; /* Adjust the size as needed */
+  margin-top: -300px; /* To position the image above the container if necessary */
+  z-index: -1;
+  filter: drop-shadow(
+    8px 12px 0px rgba(0, 0, 0, 0.4)
+  ); /* Adds shadow to non-transparent parts */
+}
+
+.sec-container h2 {
+  color: rgb(0, 0, 0, 0.9);
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.3);
+}
+
+.sec-container h3 {
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.3);
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.sec-container p {
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
+}

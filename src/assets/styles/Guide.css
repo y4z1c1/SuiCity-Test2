@@ -1,0 +1,17 @@
+.guide-container {
+  padding: 20px;
+  color: white;
+  background-color: rgba(31, 33, 192);
+  text-align: center;
+}
+
+.guide-container h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.guide-container p,
+.guide-container ol {
+  font-size: 1.2rem;
+  color: white;
+}

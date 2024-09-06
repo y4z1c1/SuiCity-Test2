@@ -1,34 +1,66 @@
 /* Default styles for all browsers */
 .header {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 60px 0px 0px 0px;
 }
 
 .logo-title-container {
-    display: flex;
-    flex-direction: column; /* Stacks the logo above the text */
-    justify-content: center;
-    align-items: center;
-    gap: 4px; /* Space between logo and text */
+  display: flex;
+  flex-direction: column; /* Stacks the logo above the text */
+  justify-content: center;
+  align-items: center;
+  gap: 4px; /* Space between logo and text */
 }
 
 .logo {
-    height: 240px; /* Increase the logo size */
+  height: 240px; /* Increase the logo size */
 }
 
 .suicity-title {
-    margin-top: -40px;
-    margin-bottom: 0px;
-    font-size: 8rem;  /* Keep the SuiCity text large */
-    color: white;
-    font-family: "Fashion Norsa", sans-serif;
-    text-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Default shadow */
+  margin-top: -40px;
+  margin-bottom: 0px;
+  font-size: 8rem; /* Keep the SuiCity text large */
+  color: white;
+  font-family: "Fashion Norsa", sans-serif;
+  text-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Default shadow */
 }
 
 .title {
-    max-width: 30%;
-    height: auto;
-  }
+  max-width: 30%;
+  height: auto;
+}
 
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Make the navbar full width */
+  display: flex;
+  justify-content: center; /* Horizontally center the nav content */
+  background-color: rgba(0, 0, 0, 0.4); /* Add some transparency */
+  backdrop-filter: blur(10px); /* Apply the blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari-specific blur effect */
 
+  z-index: 1000; /* Ensure it's on top of other elements */
+  padding: 10px 0; /* Add some padding for better visibility */
+  border-bottom: 2px solid rgb(0, 0, 0, 0.1); /* Add a subtle border */
+}
 
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-links a:hover {
+  color: rgb(255, 255, 255, 1);
+}

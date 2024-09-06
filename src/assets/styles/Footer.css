@@ -1,8 +1,7 @@
 .footer {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 20px 20px 0px 20px;
   z-index: 1000; /* Ensure it stays on top */
   background-color: transparent; /* Optional: Ensures no visual glitches with blur */
   transition: all 0.1s ease-in-out; /* Smooth transition */
@@ -22,21 +21,22 @@
   transition: filter 0.1s ease-in-out;
 }
 
-
 .footer-links {
   list-style: none;
   display: flex;
   gap: 20px;
   justify-content: center;
+  font-size: 0.8rem;
 }
 
 .footer-links li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1.2rem;
-  font-family: Helvetica, sans-serif;
-  font-weight:lighter;
-  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 1rem;
+}
+
+.footer-links li a:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 ul {
@@ -48,5 +48,12 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 0px;
   unicode-bidi: isolate;
+}
 
+.footer-reserved {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 0.6rem;
+  text-align: center;
+  font-family: "Helvetica Light";
 }
