@@ -8,7 +8,7 @@ const Faq: React.FC = () => {
         <h2>FAQ</h2>
 
         <div className="faq-item">
-          <h3>How do I start playing SuiCityP2E? </h3>
+          <h2>How do I start playing SuiCityP2E? </h2>
           <p>
             To start playing SuiCityP2E, you first need to freemint your SuiCity
             NFT. This NFT represents your city and includes four buildings:
@@ -21,7 +21,7 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h3>How do I start playing?</h3>
+          <h2>How do I start playing?</h2>
           <p>
             You can start playing by freeminting a non-tradeable NFT, which
             serves as the foundation for your city. The NFT includes four main
@@ -31,7 +31,7 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h3>What is $SITY and how can I earn it?</h3>
+          <h2>What is $SITY and how can I earn it?</h2>
           <p>
             $SITY is the native token of SuiCityP2E and is fully
             community-owned. It can be earned through various in-game
@@ -45,7 +45,7 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h3>How does the Play2Airdrop model work?</h3>
+          <h2>How does the Play2Airdrop model work?</h2>
           <p>
             The Play2Airdrop model in SuiCityP2E allows players to earn $SITY
             tokens by participating in the game. As players engage with the
@@ -58,7 +58,7 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h3>How can I upgrade my buildings?</h3>
+          <h2>How can I upgrade my buildings?</h2>
           <p>
             Buildings in SuiCityP2E can be upgraded using $SITY or $SUI tokens.
             Each building—Office, Factory, House, and Entertainment
@@ -72,7 +72,31 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h3>What happens if I miss a claim for my passive income?</h3>
+          <h2>What happens if I miss a claim for my passive income?</h2>
+          <p>
+            If you miss a claim for your passive income in SuiCityP2E, your
+            accumulated $SITY tokens will continue to be stored, but you won't
+            generate any new passive income until you make your next claim. To
+            maximize your earnings, it's essential to log in at the specified
+            intervals to collect your passive income and keep your city's
+            productivity high.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h2>What happens if I miss a claim for my passive income?</h2>
+          <p>
+            If you miss a claim for your passive income in SuiCityP2E, your
+            accumulated $SITY tokens will continue to be stored, but you won't
+            generate any new passive income until you make your next claim. To
+            maximize your earnings, it's essential to log in at the specified
+            intervals to collect your passive income and keep your city's
+            productivity high.
+          </p>
+        </div>
+
+        <div className="faq-item">
+          <h2>What happens if I miss a claim for my passive income?</h2>
           <p>
             If you miss a claim for your passive income in SuiCityP2E, your
             accumulated $SITY tokens will continue to be stored, but you won't

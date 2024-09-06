@@ -16,22 +16,22 @@
 .text-image-block {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0;
+  align-items: center;
 }
 
 .text-left {
   text-align: left;
-  width: 50%;
+  width: 60%;
 }
 
 .text-right {
   text-align: right;
-  width: 50%;
+  width: 60%;
 }
 
 .image-right,
 .image-left {
-  width: 50%;
+  width: 40%;
 }
 
 .image-right img,
@@ -75,6 +75,7 @@
 .sec-container h2 {
   color: rgb(0, 0, 0, 0.9);
   text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.3);
+  font-size: 2.5rem;
 }
 
 .sec-container h3 {
@@ -86,6 +87,5 @@
 }
 .sec-container p {
   margin-top: 20px;
-  text-align: center;
   text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
 }
