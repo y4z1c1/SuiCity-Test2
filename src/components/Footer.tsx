@@ -8,13 +8,13 @@ const Footer: React.FC = () => {
       <div>
         <ul className="footer-links">
           <li>
-            <a href="https://twitter.com/suicity">twitter</a>
+            <a href="https://twitter.com/suicityp2e">Twitter</a>
           </li>
           <li>
-            <a href="https://discord.com/suicity">discord</a>
+            <a>Discord</a>
           </li>
           <li>
-            <a href="https://github.com/suicity">mail us</a>
+            <a href="mailto:suicity.p2e@gmail.com">Mail</a>
           </li>
         </ul>
       </div>

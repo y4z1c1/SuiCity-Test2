@@ -70,17 +70,17 @@ const Header: React.FC = () => {
                     scrollToTop();
                   }}
                 >
-                  home
+                  Home
                 </a>
               ) : (
-                <Link to="/">home</Link>
+                <Link to="/">Home</Link>
               )}
             </li>
             <li>
-              <a href="https://gitbook.com"> guide</a>
+              <a href="https://gitbook.com"> Guide</a>
             </li>
             <li>
-              <Link to="/faq">faq</Link>
+              <Link to="/faq">FAQ</Link>
             </li>
             <li>
               {/* Scroll to footer when Contact Us is clicked */}
@@ -91,7 +91,7 @@ const Header: React.FC = () => {
                   scrollToFooter();
                 }}
               >
-                contact us
+                Contact
               </a>
             </li>
           </ul>

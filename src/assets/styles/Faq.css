@@ -15,20 +15,35 @@
   box-shadow: 8px 12px 0px rgba(0, 0, 0, 0.4);
 }
 
-.faq-item h2 {
-  font-size: 1.5rem;
-  text-align: left;
+.faq-item {
+  margin-bottom: 20px;
+}
 
-  color: rgb(0, 0, 0);
+.faq-item h2 {
+  text-align: left;
+  color: rgb(0, 0, 0, 0.8);
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.3);
+  font-size: 1.5rem;
 }
 
 .faq-item p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0, 0.6);
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
+}
+.faq-item li {
+  font-size: 1rem;
+  text-align: left;
+  color: rgb(0, 0, 0, 0.6);
+  text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
 }
 
 .faq-item a {
   color: rgb(0, 0, 0);
   text-decoration: underline;
+}
+
+.faq-item ul {
+  list-style-position: inside; /* Moves the bullet inside the padding area */
 }

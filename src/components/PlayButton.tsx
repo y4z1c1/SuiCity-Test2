@@ -23,7 +23,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({ onModalStateChange }) => {
     <div>
       <div className="play-button-container">
         <button className="play-button" onClick={openModal}>
-          play
+          Play
         </button>
       </div>
       <Modal
@@ -32,9 +32,9 @@ const PlayButton: React.FC<PlayButtonProps> = ({ onModalStateChange }) => {
         className="modal"
         overlayClassName="overlay"
       >
-        <h2>hold on, the game isn’t there yet!</h2>
+        <h2>Hold on, the game isn’t ready yet!</h2>
         <button onClick={closeModal} className="close-modal-button">
-          close
+          Close
         </button>
       </Modal>
     </div>
