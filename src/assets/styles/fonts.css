@@ -5,6 +5,7 @@
     url("/fonts/fashionnorsa.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -13,6 +14,7 @@
     url("/fonts/Helvetica.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
     url("/fonts/Helvetica-Oblique.ttf") format("ttf");
   font-weight: normal;
   font-style: oblique;
+  font-display: swap;
 }
 
 @font-face {
@@ -29,6 +32,7 @@
     url("/fonts/helvetica-compressed-5871d14b6903a.otf") format("otf");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -37,6 +41,7 @@
     url("/fonts/helvetica-rounded-bold-5871d05ead8de.otf") format("otf");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -45,6 +50,7 @@
     url("/fonts/Helvetica-Bold.ttf") format("ttf");
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -53,6 +59,7 @@
     url("/fonts/Helvetica-BoldOblique.ttf") format("ttf");
   font-weight: bold;
   font-style: oblique;
+  font-display: swap;
 }
 
 @font-face {
@@ -61,6 +68,7 @@
     url("/fonts/helvetica-light-587ebe5a59211.ttf") format("ttf");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 body {

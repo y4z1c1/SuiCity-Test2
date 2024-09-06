@@ -1,6 +1,8 @@
 /* Apply the blur effect to the entire page when the modal is open */
 /* Smooth transition for blurring/unblurring */
 
+@import url("./assets/styles/fonts.css"); /* Adjust path if needed */
+
 .parallax {
   transition: transform 0.3s ease-out;
   will-change: transform;
