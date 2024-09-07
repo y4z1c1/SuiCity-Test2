@@ -62,6 +62,12 @@
   .faq-section {
     width: 100%;
     padding: 20px;
+    box-shadow: 3px 6px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .faq-item li,
+  .faq-item p {
+    font-size: 80%;
   }
 }
 
@@ -69,10 +75,23 @@
   .faq-section {
     padding: 15px;
   }
+
+  .faq-item li,
+  .faq-item p {
+    font-size: 60%;
+  }
+
+  .faq-item h2 {
+    font-size: 100%;
+  }
 }
 
 @media (max-width: 375px) {
   .faq-section {
     padding: 10px;
+  }
+  .faq-item li,
+  .faq-item p {
+    font-size: 50%;
   }
 }

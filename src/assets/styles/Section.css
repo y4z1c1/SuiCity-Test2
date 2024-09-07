@@ -171,4 +171,8 @@
     width: 100%;
     margin-top: -30%;
   }
+
+  .sec-container p {
+    font-size: 50%;
+  }
 }
