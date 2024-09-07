@@ -5,7 +5,7 @@ const Faq: React.FC = () => {
   return (
     <div className="faq-container">
       <section className="faq-section">
-        <h2 style={{ marginTop: "0" }}>FAQ</h2>
+        <h2 style={{ marginTop: "0", textAlign: "left" }}>FAQ</h2>
 
         <div className="faq-item">
           <h2>How do I start playing SuiCityP2E? </h2>
