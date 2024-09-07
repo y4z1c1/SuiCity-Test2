@@ -77,7 +77,7 @@ const Header: React.FC = () => {
               )}
             </li>
             <li>
-              <a href="https://gitbook.com"> Docs</a>
+              <a href="http://docs.suicityp2e.com"> Docs</a>
             </li>
             <li>
               <Link to="/faq">FAQ</Link>
