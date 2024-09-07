@@ -6,7 +6,7 @@
 
 .play-button {
   padding: 0.4% 0.8%;
-  font-size: 200%;
+  font-size: 150%;
   font-family: "Helvetica Bold", sans-serif;
   background-color: white;
   color: rgb(0, 0, 0, 0.8);
@@ -72,6 +72,7 @@
   .play-button {
     margin-bottom: 140px;
     width: 20%;
+    font-size: 120%;
   }
 
   /* Modal Styles */
