@@ -47,7 +47,10 @@ const Section: React.FC = () => {
 
       <div className="text-image-block">
         <div className="text-left">
-          <h2>Join Forces and Thrive: Build with the SuiCity Community💡</h2>
+          <h2>
+            Join Forces and Thrive:
+            <br /> Build with the SuiCity Community💡
+          </h2>
           <p>
             SuiCityP2E isn’t just a game—it’s a community-driven project where
             your voice matters. By joining, you become part of a vibrant network

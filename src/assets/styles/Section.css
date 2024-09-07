@@ -90,14 +90,6 @@
     margin: auto;
   }
 
-  .sec-container h2 {
-    font-size: 2rem;
-  }
-
-  .sec-container p {
-    font-size: 0.9rem;
-  }
-
   .text-left,
   .text-right {
     width: 60%;
@@ -106,6 +98,10 @@
   .image-right,
   .image-left {
     width: 40%;
+  }
+
+  .sec-container h2 {
+    font-size: 160%;
   }
 
   #cloud {
@@ -128,6 +124,10 @@
   .image-right,
   .image-left {
     width: 40%;
+  }
+
+  .sec-container p {
+    font-size: 80%;
   }
 
   #cloud {
