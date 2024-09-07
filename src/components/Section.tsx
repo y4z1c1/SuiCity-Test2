@@ -12,8 +12,9 @@ const Section: React.FC = () => {
       <div className="text-image-block">
         <div className="text-left">
           <h2>
-            Freemint your SuiCity NFT and
-            <br /> start earning $SITY🪙
+            Freemint your SuiCity NFT
+            <br />
+            and start earning $SITY🪙
           </h2>
           <p>
             Start the game with four key structures— the Office, Factory, House,
@@ -45,7 +46,7 @@ const Section: React.FC = () => {
         </div>
         <div className="text-right">
           <h2>
-            Upgrade Buildings on your NFT &<br /> Increase $SITY Revenue
+            Upgrade Buildings on your NFT <br /> & Increase $SITY Revenue
             Potential📶
           </h2>
           <p>
