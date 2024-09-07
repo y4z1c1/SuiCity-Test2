@@ -18,7 +18,7 @@
 }
 
 .suicity-title {
-  margin-top: -25px;
+  margin-top: -20px;
   margin-bottom: 0px;
   font-size: 5rem; /* Keep the SuiCity text large */
   color: white;
@@ -69,7 +69,7 @@
 @media (max-width: 768px) {
   .suicity-title {
     font-size: 4rem; /* Decrease the font size for smaller screens */
-    margin-top: -15px; /* Adjust the margin for smaller screens */
+    margin-top: -13px; /* Adjust the margin for smaller screens */
   }
 
   .logo {
@@ -84,7 +84,7 @@
 @media (max-width: 375px) {
   .suicity-title {
     font-size: 3rem; /* Decrease the font size for smaller screens */
-    margin-top: -15px; /* Adjust the margin for smaller screens */
+    margin-top: -10px; /* Adjust the margin for smaller screens */
   }
 
   .logo {
