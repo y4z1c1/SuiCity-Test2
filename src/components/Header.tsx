@@ -101,7 +101,12 @@ const Header: React.FC = () => {
       <div className="logo-title-container">
         {/* Conditionally render the logo only if it's not the FAQ page */}
         {!isFaqPage && (
-          <img src="/logo.png" alt="SuiCity Logo" className="logo" />
+          <picture>
+            {/* WebP version for modern browsers */}
+            <source srcSet="/logo.webp" type="image/webp" />
+            {/* PNG fallback for older browsers */}
+            <img src="/logo.png" alt="SuiCity Logo" className="logo" />
+          </picture>
         )}
         {isSafari ? (
           <img src="/title.png" alt="SuiCity Logo" className="title" />

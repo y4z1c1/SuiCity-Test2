@@ -3,7 +3,11 @@ import "../assets/styles/Section.css";
 const Section: React.FC = () => {
   return (
     <div className="sec-container">
-      <img data-depth="0.2" src="/cloud.png" alt="cloud" id="cloud" />
+      <picture>
+        <source srcSet="/cloud.webp" type="image/webp" />
+        <img src="/cloud.png" alt="cloud" id="cloud" />
+      </picture>
+
       {/* First Block: Text on the left, Image on the right */}
       <div className="text-image-block">
         <div className="text-left">
