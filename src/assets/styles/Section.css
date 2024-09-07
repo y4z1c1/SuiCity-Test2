@@ -170,6 +170,8 @@
   }
 
   .sec-container a {
+    font-size: 100%;
+
     text-decoration: none;
     color: rgba(31, 33, 192, 0.8);
   }
