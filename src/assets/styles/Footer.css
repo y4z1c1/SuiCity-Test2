@@ -31,7 +31,7 @@
 
 .footer-links li a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
 }
 
@@ -52,7 +52,7 @@ ul {
 
 .footer-reserved {
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
   font-size: 0.6rem;
   text-align: center;
   font-family: "Helvetica Light";

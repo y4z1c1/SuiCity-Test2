@@ -41,7 +41,7 @@
   width: 100%;
   height: auto;
   filter: drop-shadow(
-    8px 12px 12px rgba(0, 0, 0, 0.4)
+    8px 12px 12px rgba(0, 0, 0, 0.2)
   ); /* Adds shadow to non-transparent parts */
 }
 
@@ -54,7 +54,7 @@
   margin-top: -30%;
   z-index: -1;
   filter: drop-shadow(
-    8px 12px 0px rgba(0, 0, 0, 0.4)
+    8px 12px 0px rgba(0, 0, 0, 0.3)
   ); /* Adds shadow to non-transparent parts */
 }
 

@@ -44,7 +44,6 @@
 
   z-index: 1000; /* Ensure it's on top of other elements */
   padding: 10px 0; /* Add some padding for better visibility */
-  border-bottom: 2px solid rgb(0, 0, 0, 0.1); /* Add a subtle border */
 }
 
 .nav-links {
@@ -59,7 +58,7 @@
   text-decoration: none;
   font-size: 0.8rem;
 
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-links a:hover {

@@ -24,13 +24,21 @@ const Section: React.FC = () => {
           </p>
         </div>
         <div className="image-right">
-          <img src="/city.png" alt="First Image" />
+          <picture>
+            {/* WebP version for modern browsers */}
+            <source srcSet="/city.webp" type="image/webp" />
+            <img src="/city.png" alt="City Image" />
+          </picture>
         </div>
       </div>
       {/* Second Block: Text on the right, Image on the left */}
       <div className="text-image-block">
         <div className="image-left">
-          <img src="/build2.png" alt="Second Image" />
+          <picture>
+            {/* WebP version for modern browsers */}
+            <source srcSet="/build2.webp" type="image/webp" />
+            <img src="/build2.png" alt="Construction Image" />
+          </picture>
         </div>
         <div className="text-right">
           <h2>
@@ -67,7 +75,11 @@ const Section: React.FC = () => {
           </p>
         </div>
         <div className="image-right">
-          <img src="/coins2.png" alt="First Image" />
+          <picture>
+            {/* WebP version for modern browsers */}
+            <source srcSet="/comm.webp" type="image/webp" />
+            <img src="/comm.png" alt="Community Image" />
+          </picture>
         </div>
       </div>
 
