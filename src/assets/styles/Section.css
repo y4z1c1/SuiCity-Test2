@@ -139,17 +139,24 @@
 @media (max-width: 480px) {
   .image-right,
   .image-left {
-    width: 30%;
+    width: 40%;
   }
   .text-left,
   .text-right {
-    width: 70%;
+    width: 60%;
   }
 
   .sec-container {
     width: 100%;
     padding: 15px;
     box-shadow: 3px 6px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .sec-container h2 {
+    font-size: 120%;
+  }
+  .sec-container p {
+    font-size: 60%;
   }
 
   #cloud {
