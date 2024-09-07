@@ -25,17 +25,17 @@
   text-align: left;
   color: rgb(0, 0, 0, 0.8);
   text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.3);
-  font-size: 1.5rem;
+  font-size: 150%;
 }
 
 .faq-item p {
-  font-size: 1rem;
+  font-size: 100%;
   text-align: left;
   color: rgb(0, 0, 0, 0.6);
   text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
 }
 .faq-item li {
-  font-size: 1rem;
+  font-size: 100%;
   text-align: left;
   color: rgb(0, 0, 0, 0.6);
   text-shadow: 2px 4px 60px rgba(0, 0, 0, 0.2);
@@ -56,15 +56,6 @@
     width: 80%;
     padding: 30px;
   }
-
-  .faq-item h2 {
-    font-size: 1.3rem;
-  }
-
-  .faq-item p,
-  .faq-item li {
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -72,43 +63,16 @@
     width: 100%;
     padding: 20px;
   }
-
-  .faq-item h2 {
-    font-size: 1.2rem;
-  }
-
-  .faq-item p,
-  .faq-item li {
-    font-size: 0.9rem;
-  }
 }
 
 @media (max-width: 480px) {
   .faq-section {
     padding: 15px;
   }
-
-  .faq-item h2 {
-    font-size: 1.1rem;
-  }
-
-  .faq-item p,
-  .faq-item li {
-    font-size: 0.8rem;
-  }
 }
 
 @media (max-width: 375px) {
   .faq-section {
     padding: 10px;
-  }
-
-  .faq-item h2 {
-    font-size: 1rem;
-  }
-
-  .faq-item p,
-  .faq-item li {
-    font-size: 0.7rem;
   }
 }
