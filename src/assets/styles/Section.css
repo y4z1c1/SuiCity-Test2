@@ -24,17 +24,17 @@
 
 .text-left {
   text-align: left;
-  width: 60%;
+  width: 70%;
 }
 
 .text-right {
   text-align: right;
-  width: 60%;
+  width: 70%;
 }
 
 .image-right,
 .image-left {
-  width: 40%;
+  width: 30%;
 }
 
 .image-right img,
