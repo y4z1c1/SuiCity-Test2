@@ -21,16 +21,6 @@ const Faq: React.FC = () => {
         </div>
 
         <div className="faq-item">
-          <h2>How do I start playing?</h2>
-          <p>
-            You can start playing by freeminting a non-tradeable NFT, which
-            serves as the foundation for your city. The NFT includes four main
-            buildings—Entertainment, Factory, House, and Office—each starting at
-            level 0.
-          </p>
-        </div>
-
-        <div className="faq-item">
           <h2>What is $SITY and how can I earn it?</h2>
           <p>
             $SITY is the native token of SuiCityP2E and is fully
