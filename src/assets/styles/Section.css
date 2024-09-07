@@ -259,6 +259,10 @@
     font-size: 60%;
   }
 
+  .specBr {
+    display: none;
+  }
+
   #cloud {
     width: 100%;
     margin-top: -140px;

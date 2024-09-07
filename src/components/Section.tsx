@@ -46,8 +46,8 @@ const Section: React.FC = () => {
         </div>
         <div className="text-right">
           <h2>
-            Upgrade Buildings on your NFT <br /> & Increase $SITY Revenue
-            Potential📶
+            Upgrade Buildings on your NFT <br className="specBr" /> & Increase
+            $SITY Revenue Potential📶
           </h2>
           <p>
             Maximize your city's productivity and significantly boost your $SITY
