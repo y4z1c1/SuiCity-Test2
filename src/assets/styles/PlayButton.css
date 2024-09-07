@@ -46,7 +46,7 @@
 /* Modal Styles */
 .modal {
   background-color: white;
-  width: 40%;
+  width: 30%;
   padding: 20px;
   border-radius: 2%;
   text-align: center;
@@ -65,6 +65,7 @@
 /* Popup text color */
 .modal h2 {
   color: rgb(0, 0, 0, 0.8);
+  font-size: 150%;
 }
 
 @media (max-width: 1024px) {
@@ -75,7 +76,7 @@
 
   /* Modal Styles */
   .modal {
-    width: 80%;
+    width: 40%;
   }
 }
 
@@ -87,7 +88,11 @@
 
   /* Modal Styles */
   .modal {
-    width: 80%;
+    width: 60%;
+  }
+
+  .modal h2 {
+    font-size: 120%;
   }
 }
 
