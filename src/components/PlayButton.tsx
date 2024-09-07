@@ -32,7 +32,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({ onModalStateChange }) => {
         className="modal"
         overlayClassName="overlay"
       >
-        <h2>Hold on, the game isn’t ready yet!</h2>
+        <h2>Whoa there, eager beaver! The game's not quite cooked yet!</h2>
         <button onClick={closeModal} className="close-modal-button">
           Close
         </button>
