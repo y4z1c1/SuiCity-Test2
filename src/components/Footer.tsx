@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
               href="https://twitter.com/suicityp2e"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Twitter Link for SuiCityP2E"
             >
               <FaTwitter className="footer-icon" />
             </a>
@@ -21,12 +22,13 @@ const Footer: React.FC = () => {
               href="#"
               className="discord-soon"
               title="Coming Soon" // Tooltip message
+              aria-label="Discord Link for SuiCityP2E"
             >
               <FaDiscord className="footer-icon" />
             </a>
           </li>
           <li>
-            <a href="mailto:suicity.p2e@gmail.com">
+            <a href="mailto:suicity.p2e@gmail.com" aria-label="Mail SuiCityP2E">
               <FaEnvelope className="footer-icon" />
             </a>
           </li>
