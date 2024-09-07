@@ -8,6 +8,42 @@
   box-sizing: border-box;
 }
 
+.footer-icon {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 5px;
+}
+
+.footer-icon:hover {
+  color: rgba(
+    255,
+    255,
+    255
+  ); /* Change color on hover (for example, Twitter blue) */
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+/* Make the Discord link non-clickable and show a tooltip on hover */
+.discord-soon {
+  pointer-events: none; /* Disables clicking */
+  color: grey; /* Grayscale the icon */
+}
+
+.discord-soon:hover .footer-icon {
+  color: #ffffff; /* Discord blue on hover, if desired */
+}
+
 .app-content {
   min-height: 100%; /* Ensure content takes full height, so footer stays at the bottom */
   display: flex;
