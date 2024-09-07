@@ -150,7 +150,7 @@ const Faq: React.FC = () => {
 
           <ul>
             <li>Download Sui Wallet Mobile or Ethos Wallet Mobile</li>
-            <li>mport or Create a new wallet</li>
+            <li>Import or Create a new wallet</li>
             <li>
               Log in to the SuiCity game link using the browser inside the
               wallet application
