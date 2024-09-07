@@ -14,13 +14,13 @@
 }
 
 .logo {
-  height: 180px; /* Increase the logo size */
+  height: 160px; /* Increase the logo size */
 }
 
 .suicity-title {
   margin-top: -30px;
   margin-bottom: 0px;
-  font-size: 6rem; /* Keep the SuiCity text large */
+  font-size: 5rem; /* Keep the SuiCity text large */
   color: white;
   font-family: "Fashion Norsa", sans-serif;
   text-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Default shadow */
@@ -57,7 +57,7 @@
 
 .nav-links a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   color: rgba(255, 255, 255, 0.3);
 }
@@ -66,18 +66,14 @@
   color: rgb(255, 255, 255, 1);
 }
 
-@media (max-width: 768) {
-  .specialLeft,
-  .specialRight {
-    display: none; /* Hide on devices smaller than 768px */
-  }
+@media (max-width: 768px) {
   .suicity-title {
-    font-size: 5rem; /* Decrease the font size for smaller screens */
+    font-size: 4rem; /* Decrease the font size for smaller screens */
     margin-top: -30px; /* Adjust the margin for smaller screens */
   }
 
   .logo {
-    height: 140px; /* Decrease the logo size for smaller screens */
+    height: 120px; /* Decrease the logo size for smaller screens */
   }
 
   .title {
@@ -87,12 +83,12 @@
 
 @media (max-width: 375px) {
   .suicity-title {
-    font-size: 4rem; /* Decrease the font size for smaller screens */
+    font-size: 3rem; /* Decrease the font size for smaller screens */
     margin-top: -20px; /* Adjust the margin for smaller screens */
   }
 
   .logo {
-    height: 120px; /* Decrease the logo size for smaller screens */
+    height: 100px; /* Decrease the logo size for smaller screens */
   }
 
   .title {

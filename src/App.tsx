@@ -5,7 +5,6 @@ import PlayButton from "./components/PlayButton";
 import Footer from "./components/Footer";
 import Section from "./components/Section"; // Use the correct file casing
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Guide from "./components/Guide";
 import Faq from "./components/Faq"; // Import the Faq component
 
 const App: React.FC = () => {
@@ -34,7 +33,6 @@ const App: React.FC = () => {
           {/* Add the FAQ route */}
           <Route path="/faq" element={<Faq />} />
           {/* Add the Guide route if needed */}
-          <Route path="/guide" element={<Guide />} />
         </Routes>
         <Footer />
       </div>

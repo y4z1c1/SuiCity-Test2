@@ -5,17 +5,19 @@
 }
 
 .play-button {
-  padding: 10px 30px;
-  font-size: 2rem;
-  font-family: Helvetica, sans-serif;
-  font-weight: 900; /* Bold Helvetica text */
+  padding: 1% 2%;
+  font-size: 100%;
+  font-family: "Helvetica Bold", sans-serif;
   background-color: white;
   color: rgb(0, 0, 0, 0.8);
   border: none;
   cursor: pointer;
   border-radius: 2%;
   box-shadow: 4px 8px 0px rgba(0, 0, 0, 0.4); /* Add shadow effect */
-  margin-bottom: 200px;
+  margin-bottom: 160px;
+  width: 12%;
+  justify-content: center;
+  text-align: center;
 }
 
 .play-button:hover {
@@ -63,4 +65,35 @@
 /* Popup text color */
 .modal h2 {
   color: rgb(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1024px) {
+  .play-button {
+    margin-bottom: 140px;
+    width: 20%;
+  }
+
+  /* Modal Styles */
+  .modal {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .play-button {
+    margin-bottom: 140px;
+    width: 30%;
+  }
+
+  /* Modal Styles */
+  .modal {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .play-button {
+    margin-bottom: 120px;
+    width: 40%;
+  }
 }

@@ -88,7 +88,7 @@ const Faq: React.FC = () => {
           <p>
             SuiCityP2E's referral system allows players to earn additional $SITY
             tokens by inviting friends to join the game. For every friend a
-            player invites using their unique referral link, they will earn 1000
+            player invites using their unique referral link, they will earn 750
             $SITY tokens. However, if players are found to be abusing the
             referral system (e.g., creating fake accounts), their accounts will
             be flagged as sybil accounts, and appropriate actions will be taken.
@@ -149,14 +149,14 @@ const Faq: React.FC = () => {
           <p>No! You can also play SuiCityP2E on mobile. Here's how:</p>
 
           <ul>
-            <li>1. Download Sui Wallet Mobile or Ethos Wallet Mobile</li>
-            <li>2. Import or Create a new wallet</li>
+            <li>Download Sui Wallet Mobile or Ethos Wallet Mobile</li>
+            <li>mport or Create a new wallet</li>
             <li>
-              3. Log in to the SuiCity game link using the browser inside the
+              Log in to the SuiCity game link using the browser inside the
               wallet application
             </li>
             <li>
-              4. Connect your wallet, and now you're ready to build your City!"
+              Connect your wallet, and now you're ready to build your City!
             </li>
           </ul>
         </div>
