@@ -89,7 +89,7 @@ const Section: React.FC = () => {
       </div>
 
       <div>
-        <a href="https://docs.suicityp2e.com" target="_blank">
+        <a href="https://suicityp2e.gitbook.io/guide" target="_blank">
           read more on docs
         </a>
       </div>
