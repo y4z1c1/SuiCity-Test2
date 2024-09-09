@@ -150,6 +150,16 @@ const Faq: React.FC = () => {
             </li>
           </ul>
         </div>
+        <div className="faq-item">
+          <h2>Do I need to have $SUI in my wallet to play the game? </h2>
+          <p>
+            Since SuiCityP2E is an onchain game, various functions in the game
+            (like upgrades, claims, etc.) require transactions. These
+            transactions require gas fees, and considering the low gas fees on
+            the Sui network, you will need to have a small amount of $SUI in
+            your wallet. Additionally, some building upgrades may require $SUI.
+          </p>
+        </div>
       </section>
     </div>
   );
