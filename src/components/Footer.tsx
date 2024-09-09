@@ -14,22 +14,33 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               aria-label="Twitter Link for SuiCityP2E"
             >
-              <FaTwitter className="footer-icon" />
+              Twitter{" "}
             </a>
           </li>
-          <li>
-            <a
-              href="#"
-              className="discord-soon"
-              title="Coming Soon" // Tooltip message
-              aria-label="Discord Link for SuiCityP2E"
-            >
-              <FaDiscord className="footer-icon" />
-            </a>
-          </li>
+
           <li>
             <a href="mailto:suicity.p2e@gmail.com" aria-label="Mail SuiCityP2E">
-              <FaEnvelope className="footer-icon" />
+              Mail
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://zealy.io/cw/suicityp2e/questboard"
+              target="_blank"
+              aria-label="Zealy Link for SuiCityP2E"
+            >
+              Zealy
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://suigallerie.xyz/space/suicityp2e "
+              target="_blank"
+              aria-label="Sui Gallerie Link for SuiCityP2E"
+            >
+              Sui Gallerie
             </a>
           </li>
         </ul>
