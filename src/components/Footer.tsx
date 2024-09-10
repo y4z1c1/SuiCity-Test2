@@ -42,6 +42,16 @@ const Footer: React.FC = () => {
               Zealy
             </a>
           </li>
+
+          <li>
+            <a
+              href="https://linktr.ee/suicityp2e"
+              target="_blank"
+              aria-label="Linktree Link for SuiCityP2E"
+            >
+              Linktree
+            </a>
+          </li>
         </ul>
       </div>
       <div>
