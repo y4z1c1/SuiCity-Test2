@@ -18,6 +18,16 @@ const Footer: React.FC = () => {
           </li>
 
           <li>
+            <a
+              href="https://discord.com/invite/Aeth26cr25 "
+              target="_blank"
+              aria-label="Discord Link for SuiCityP2E"
+            >
+              Discord
+            </a>
+          </li>
+
+          <li>
             <a href="mailto:suicity.p2e@gmail.com" aria-label="Mail SuiCityP2E">
               Mail
             </a>
@@ -30,16 +40,6 @@ const Footer: React.FC = () => {
               aria-label="Zealy Link for SuiCityP2E"
             >
               Zealy
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://suigallerie.xyz/space/suicityp2e "
-              target="_blank"
-              aria-label="Sui Gallerie Link for SuiCityP2E"
-            >
-              Sui Gallerie
             </a>
           </li>
         </ul>
