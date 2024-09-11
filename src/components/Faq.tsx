@@ -139,7 +139,7 @@ const Faq: React.FC = () => {
           <p>No! You can also play SuiCityP2E on mobile. Here's how:</p>
 
           <ul>
-            <li>Download Sui Wallet Mobile or Ethos Wallet Mobile</li>
+            <li>Download Sui Wallet Mobile</li>
             <li>Import or Create a new wallet</li>
             <li>
               Log in to the SuiCity game link using the browser inside the
