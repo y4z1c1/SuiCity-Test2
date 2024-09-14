@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import PlayButton from "./components/PlayButton";
@@ -8,16 +7,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Faq from "./components/Faq"; // Import the Faq component
 
 const App: React.FC = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleModalState = (isOpen: boolean) => {
-    setIsModalOpen(isOpen);
-  };
-
   return (
     <Router>
       {/* Wrap the whole content in a div to apply the blur */}
-      <div className={`app-content ${isModalOpen ? "blurred" : ""}`}>
+      <div className={`app-content`}>
         <Header />
         <Routes>
           {/* Home Page */}
@@ -25,7 +18,7 @@ const App: React.FC = () => {
             path="/"
             element={
               <>
-                <PlayButton onModalStateChange={handleModalState} />
+                <PlayButton />
                 <Section /> {/* Display FAQ on the main page */}
               </>
             }
