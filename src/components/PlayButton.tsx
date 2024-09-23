@@ -9,7 +9,7 @@ const PlayButton: React.FC = () => {
   return (
     <div className="play-button-container">
       <button className="play-button" onClick={redirectToDemo}>
-        Play Demo
+        Play
       </button>
     </div>
   );
