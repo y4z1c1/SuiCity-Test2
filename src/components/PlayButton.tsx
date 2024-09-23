@@ -3,7 +3,7 @@ import "../assets/styles/PlayButton.css";
 
 const PlayButton: React.FC = () => {
   const redirectToDemo = () => {
-    window.location.href = "https://demo.suicityp2e.com";
+    window.location.href = "https://play.suicityp2e.com";
   };
 
   return (
