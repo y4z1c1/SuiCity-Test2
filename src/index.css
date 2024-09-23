@@ -5,8 +5,8 @@ body {
   font-weight: bold; /* Make all Helvetica text bold */
   background: radial-gradient(
     circle,
-    rgb(45, 45, 255) 50%,
-    rgb(0, 0, 105) 100%
+    rgb(45, 45, 255) 80%,
+    rgb(16, 16, 183) 100%
   );
   color: white;
 }
