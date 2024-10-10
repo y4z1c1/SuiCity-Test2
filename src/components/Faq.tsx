@@ -76,7 +76,7 @@ const Faq: React.FC = () => {
 
           </h2>
           <p>
-            SuiCityP2E's referral system allows players to earn additional $SITY tokens by inviting friends to join the game. For every friend a player invites using their unique referral link, they will earn 500 $SITY tokens. Players must have a minimum total level of 3 of their buildings to use the invite code and benefit from the $SITY reward. The "Use Refferal Code" button is not active for players whose buildings' total level is not 3. However, if players are found to be abusing the referral system (e.g., creating fake accounts), their accounts will be flagged as sybil accounts, and appropriate actions will be taken.
+            SuiCityP2E's referral system allows players to earn additional $SITY tokens by inviting friends to join the game. For every friend a player invites using their unique referral link, they will earn 5000 $SITY tokens. Players must have a minimum total level of 3 of their buildings to use the invite code and benefit from the $SITY reward. The "Use Refferal Code" button is not active for players whose buildings' total level is not 3. However, if players are found to be abusing the referral system (e.g., creating fake accounts), their accounts will be flagged as sybil accounts, and appropriate actions will be taken.
 
           </p>
         </div>
